@@ -1,0 +1,578 @@
+Creating thread 1
+The value of ShouldISwitch is 0------------- 
+ Creating thread 2
+The value of ShouldISwitch is 0------------- 
+ Creating thread 3
+The value of ShouldISwitch is 0------------- 
+ Creating thread 4
+The value of ShouldISwitch is 0------------- 
+ Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 50
+The timeleft of currentthread main 0 is 16
+Creating thread 5
+The value of ShouldISwitch is 0------------- 
+ Creating thread 6
+The value of ShouldISwitch is 0------------- 
+ Creating thread 7
+The value of ShouldISwitch is 0------------- 
+ Creating thread 8
+The value of ShouldISwitch is 0------------- 
+ Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 100
+The timeleft of currentthread fork thread 1 is 16
+Creating thread 9
+The value of ShouldISwitch is 0------------- 
+ Creating thread 10
+The value of ShouldISwitch is 0------------- 
+ Creating thread 11
+The value of ShouldISwitch is 0------------- 
+ Creating thread 12
+The value of ShouldISwitch is 0------------- 
+ Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 150
+The timeleft of currentthread fork thread 2 is 16
+Creating thread 13
+The value of ShouldISwitch is 0------------- 
+ Creating thread 14
+The value of ShouldISwitch is 0------------- 
+ Creating thread 15
+The value of ShouldISwitch is 0------------- 
+ Creating thread 16
+The value of ShouldISwitch is 0------------- 
+ Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 200
+The timeleft of currentthread fork thread 3 is 16
+Creating thread 17
+The value of ShouldISwitch is 0------------- 
+ Creating thread 18
+The value of ShouldISwitch is 0------------- 
+ Creating thread 19
+The value of ShouldISwitch is 0------------- 
+ Creating thread 20
+The value of ShouldISwitch is 0------------- 
+ Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 250
+The timeleft of currentthread fork thread 4 is 16
+*** thread 5 name "fork thread" looped 0 times 10 priority
+*** thread 6 name "fork thread" looped 0 times 10 priority
+*** thread 7 name "fork thread" looped 0 times 10 priority
+*** thread 8 name "fork thread" looped 0 times 10 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 300
+The timeleft of currentthread fork thread 9 is 16
+*** thread 10 name "fork thread" looped 0 times 10 priority
+*** thread 11 name "fork thread" looped 0 times 10 priority
+*** thread 12 name "fork thread" looped 0 times 10 priority
+*** thread 13 name "fork thread" looped 0 times 10 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 350
+The timeleft of currentthread fork thread 14 is 16
+*** thread 15 name "fork thread" looped 0 times 10 priority
+*** thread 16 name "fork thread" looped 0 times 10 priority
+*** thread 17 name "fork thread" looped 0 times 10 priority
+*** thread 18 name "fork thread" looped 0 times 10 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 400
+The timeleft of currentthread fork thread 19 is 16
+*** thread 20 name "fork thread" looped 0 times 10 priority
+Creating thread 21
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread fork thread with priority 10
+Creating thread 22
+The value of ShouldISwitch is 0------------- 
+ Creating thread 23
+The value of ShouldISwitch is 0------------- 
+ Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 450
+The timeleft of currentthread fork thread 21 is 16
+*** thread 22 name "fork thread" looped 0 times 10 priority
+*** thread 23 name "fork thread" looped 0 times 10 priority
+Creating thread 24
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 24 name "fork thread" looped 0 times 10 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 500
+The timeleft of currentthread fork thread 2 is 12
+Creating thread 25
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 25 name "fork thread" looped 0 times 10 priority
+Creating thread 26
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 26 name "fork thread" looped 0 times 10 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 550
+The timeleft of currentthread fork thread 5 is 16
+*** thread 6 name "fork thread" looped 1 times 8 priority
+*** thread 7 name "fork thread" looped 1 times 8 priority
+*** thread 8 name "fork thread" looped 1 times 8 priority
+*** thread 9 name "fork thread" looped 0 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 600
+The timeleft of currentthread fork thread 10 is 16
+*** thread 11 name "fork thread" looped 1 times 8 priority
+*** thread 12 name "fork thread" looped 1 times 8 priority
+*** thread 13 name "fork thread" looped 1 times 8 priority
+*** thread 14 name "fork thread" looped 0 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 650
+The timeleft of currentthread fork thread 15 is 16
+*** thread 16 name "fork thread" looped 1 times 8 priority
+*** thread 17 name "fork thread" looped 1 times 8 priority
+*** thread 18 name "fork thread" looped 1 times 8 priority
+*** thread 19 name "fork thread" looped 0 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 700
+The timeleft of currentthread fork thread 20 is 16
+Creating thread 27
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 27 name "fork thread" looped 0 times 10 priority
+*** thread 22 name "fork thread" looped 1 times 8 priority
+*** thread 23 name "fork thread" looped 1 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 750
+The timeleft of currentthread fork thread 24 is 16
+*** thread 25 name "fork thread" looped 1 times 8 priority
+*** thread 26 name "fork thread" looped 1 times 8 priority
+*** thread 27 name "fork thread" looped 1 times 8 priority
+Creating thread 28
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread fork thread with priority 10
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 800
+The timeleft of currentthread fork thread 28 is 16
+Creating thread 29
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 29 name "fork thread" looped 0 times 10 priority
+*** thread 29 name "fork thread" looped 1 times 8 priority
+Creating thread 30
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 850
+The timeleft of currentthread fork thread 30 is 16
+*** thread 30 name "fork thread" looped 0 times 8 priority
+*** thread 5 name "fork thread" looped 1 times 6 priority
+*** thread 6 name "fork thread" looped 2 times 6 priority
+*** thread 7 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 900
+The timeleft of currentthread fork thread 8 is 16
+*** thread 9 name "fork thread" looped 1 times 6 priority
+*** thread 10 name "fork thread" looped 1 times 6 priority
+*** thread 11 name "fork thread" looped 2 times 6 priority
+*** thread 12 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 950
+The timeleft of currentthread fork thread 13 is 16
+*** thread 14 name "fork thread" looped 1 times 6 priority
+*** thread 15 name "fork thread" looped 1 times 6 priority
+*** thread 16 name "fork thread" looped 2 times 6 priority
+*** thread 17 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1000
+The timeleft of currentthread fork thread 18 is 16
+*** thread 19 name "fork thread" looped 1 times 6 priority
+*** thread 20 name "fork thread" looped 1 times 6 priority
+Creating thread 31
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 31 name "fork thread" looped 0 times 10 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1050
+The timeleft of currentthread fork thread 31 is 16
+*** thread 23 name "fork thread" looped 2 times 6 priority
+*** thread 24 name "fork thread" looped 1 times 6 priority
+*** thread 25 name "fork thread" looped 2 times 6 priority
+*** thread 26 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1100
+The timeleft of currentthread fork thread 27 is 16
+Creating thread 32
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 32 name "fork thread" looped 0 times 10 priority
+*** thread 32 name "fork thread" looped 1 times 8 priority
+Creating thread 33
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1150
+The timeleft of currentthread fork thread 33 is 16
+*** thread 33 name "fork thread" looped 0 times 8 priority
+Creating thread 34
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 34 name "fork thread" looped 0 times 10 priority
+*** thread 34 name "fork thread" looped 1 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1200
+The timeleft of currentthread fork thread 22 is 16
+*** thread 31 name "fork thread" looped 1 times 6 priority
+Creating thread 35
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 35 name "fork thread" looped 0 times 10 priority
+*** thread 35 name "fork thread" looped 1 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1250
+The timeleft of currentthread fork thread 29 is 16
+*** thread 33 name "fork thread" looped 1 times 6 priority
+*** thread 30 name "fork thread" looped 1 times 6 priority
+*** thread 34 name "fork thread" looped 2 times 6 priority
+*** thread 32 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1300
+The timeleft of currentthread fork thread 35 is 16
+Creating thread 36
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread fork thread with priority 10
+*** thread 36 name "fork thread" looped 0 times 10 priority
+*** thread 36 name "fork thread" looped 1 times 8 priority
+*** thread 36 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1350
+The timeleft of currentthread fork thread 6 is 16
+*** thread 7 name "fork thread" looped 3 times 4 priority
+*** thread 8 name "fork thread" looped 2 times 4 priority
+*** thread 9 name "fork thread" looped 2 times 4 priority
+*** thread 10 name "fork thread" looped 2 times 4 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1400
+The timeleft of currentthread fork thread 11 is 16
+*** thread 12 name "fork thread" looped 3 times 4 priority
+*** thread 13 name "fork thread" looped 2 times 4 priority
+*** thread 14 name "fork thread" looped 2 times 4 priority
+*** thread 15 name "fork thread" looped 2 times 4 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1450
+The timeleft of currentthread fork thread 16 is 16
+*** thread 17 name "fork thread" looped 3 times 4 priority
+*** thread 18 name "fork thread" looped 2 times 4 priority
+*** thread 19 name "fork thread" looped 2 times 4 priority
+*** thread 20 name "fork thread" looped 2 times 4 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1500
+The timeleft of currentthread fork thread 21 is 12
+*** thread 23 name "fork thread" looped 3 times 4 priority
+*** thread 24 name "fork thread" looped 2 times 4 priority
+*** thread 25 name "fork thread" looped 3 times 4 priority
+*** thread 26 name "fork thread" looped 3 times 4 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1550
+The timeleft of currentthread fork thread 27 is 12
+Creating thread 1
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 1 name "fork thread" looped 0 times 10 priority
+*** thread 1 name "fork thread" looped 1 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1600
+The timeleft of currentthread fork thread 1 is 16
+*** thread 31 name "fork thread" looped 2 times 4 priority
+Creating thread 37
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 37 name "fork thread" looped 0 times 10 priority
+*** thread 37 name "fork thread" looped 1 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1650
+The timeleft of currentthread fork thread 37 is 16
+*** thread 30 name "fork thread" looped 2 times 4 priority
+*** thread 34 name "fork thread" looped 3 times 4 priority
+*** thread 32 name "fork thread" looped 3 times 4 priority
+*** thread 35 name "fork thread" looped 2 times 4 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1700
+The timeleft of currentthread fork thread 3 is 12
+*** thread 5 name "fork thread" looped 2 times 4 priority
+*** thread 36 name "fork thread" looped 3 times 4 priority
+*** thread 22 name "fork thread" looped 2 times 4 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1750
+The timeleft of currentthread fork thread 1 is 12
+*** thread 29 name "fork thread" looped 2 times 4 priority
+*** thread 33 name "fork thread" looped 2 times 4 priority
+*** thread 37 name "fork thread" looped 2 times 4 priority
+Creating thread 4
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread fork thread with priority 10
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1800
+The timeleft of currentthread fork thread 4 is 16
+*** thread 4 name "fork thread" looped 0 times 8 priority
+*** thread 4 name "fork thread" looped 1 times 6 priority
+*** thread 4 name "fork thread" looped 2 times 4 priority
+*** thread 9 name "fork thread" looped 3 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1850
+The timeleft of currentthread fork thread 10 is 12
+*** thread 11 name "fork thread" looped 3 times 2 priority
+*** thread 12 name "fork thread" looped 4 times 2 priority
+*** thread 13 name "fork thread" looped 3 times 2 priority
+*** thread 14 name "fork thread" looped 3 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1900
+The timeleft of currentthread fork thread 15 is 12
+*** thread 16 name "fork thread" looped 3 times 2 priority
+*** thread 17 name "fork thread" looped 4 times 2 priority
+*** thread 18 name "fork thread" looped 3 times 2 priority
+*** thread 19 name "fork thread" looped 3 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 1950
+The timeleft of currentthread fork thread 20 is 12
+Creating thread 38
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 38 name "fork thread" looped 0 times 10 priority
+*** thread 38 name "fork thread" looped 1 times 8 priority
+*** thread 38 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2000
+The timeleft of currentthread fork thread 38 is 16
+*** thread 26 name "fork thread" looped 4 times 2 priority
+*** thread 27 name "fork thread" looped 2 times 2 priority
+*** thread 31 name "fork thread" looped 3 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2050
+The timeleft of currentthread fork thread 28 is 12
+*** thread 30 name "fork thread" looped 3 times 2 priority
+*** thread 34 name "fork thread" looped 4 times 2 priority
+*** thread 32 name "fork thread" looped 4 times 2 priority
+*** thread 35 name "fork thread" looped 3 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2100
+The timeleft of currentthread fork thread 3 is 8
+*** thread 5 name "fork thread" looped 3 times 2 priority
+*** thread 36 name "fork thread" looped 4 times 2 priority
+*** thread 22 name "fork thread" looped 3 times 2 priority
+*** thread 1 name "fork thread" looped 2 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2150
+The timeleft of currentthread fork thread 29 is 12
+*** thread 33 name "fork thread" looped 3 times 2 priority
+*** thread 37 name "fork thread" looped 3 times 2 priority
+*** thread 6 name "fork thread" looped 3 times 2 priority
+*** thread 7 name "fork thread" looped 4 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2200
+The timeleft of currentthread fork thread 8 is 12
+*** thread 4 name "fork thread" looped 3 times 2 priority
+*** thread 23 name "fork thread" looped 4 times 2 priority
+*** thread 24 name "fork thread" looped 3 times 2 priority
+*** thread 25 name "fork thread" looped 4 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2250
+The timeleft of currentthread fork thread 38 is 12
+Creating thread 2
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread fork thread with priority 10
+*** thread 2 name "fork thread" looped 0 times 10 priority
+*** thread 2 name "fork thread" looped 1 times 8 priority
+*** thread 2 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2300
+The timeleft of currentthread fork thread 2 is 16
+*** thread 2 name "fork thread" looped 3 times 2 priority
+*** thread 13 name "fork thread" looped 4 times 0 priority
+*** thread 14 name "fork thread" looped 4 times 0 priority
+*** thread 15 name "fork thread" looped 3 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2350
+The timeleft of currentthread fork thread 16 is 12
+*** thread 18 name "fork thread" looped 4 times 0 priority
+*** thread 19 name "fork thread" looped 4 times 0 priority
+*** thread 20 name "fork thread" looped 3 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2400
+The timeleft of currentthread fork thread 21 is 8
+*** thread 27 name "fork thread" looped 3 times 0 priority
+*** thread 31 name "fork thread" looped 4 times 0 priority
+Creating thread 17
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2450
+The timeleft of currentthread fork thread 17 is 16
+*** thread 17 name "fork thread" looped 0 times 8 priority
+*** thread 17 name "fork thread" looped 1 times 6 priority
+*** thread 17 name "fork thread" looped 2 times 4 priority
+*** thread 17 name "fork thread" looped 3 times 2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2500
+The timeleft of currentthread fork thread 3 is 4
+*** thread 5 name "fork thread" looped 4 times 0 priority
+*** thread 22 name "fork thread" looped 4 times 0 priority
+*** thread 1 name "fork thread" looped 3 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2550
+The timeleft of currentthread fork thread 29 is 8
+*** thread 33 name "fork thread" looped 4 times 0 priority
+*** thread 37 name "fork thread" looped 4 times 0 priority
+*** thread 6 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2600
+The timeleft of currentthread fork thread 8 is 8
+*** thread 4 name "fork thread" looped 4 times 0 priority
+*** thread 24 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2650
+The timeleft of currentthread fork thread 38 is 8
+*** thread 9 name "fork thread" looped 4 times 0 priority
+*** thread 10 name "fork thread" looped 3 times 0 priority
+*** thread 11 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2700
+The timeleft of currentthread fork thread 2 is 12
+*** thread 30 name "fork thread" looped 4 times 0 priority
+*** thread 35 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2750
+The timeleft of currentthread fork thread 17 is 12
+Creating thread 7
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread fork thread with priority 10
+*** thread 7 name "fork thread" looped 0 times 10 priority
+*** thread 7 name "fork thread" looped 1 times 8 priority
+*** thread 7 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2800
+The timeleft of currentthread fork thread 7 is 16
+*** thread 7 name "fork thread" looped 3 times 2 priority
+*** thread 7 name "fork thread" looped 4 times 0 priority
+*** thread 20 name "fork thread" looped 4 times -2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2850
+The timeleft of currentthread fork thread 21 is 4
+*** thread 27 name "fork thread" looped 4 times -2 priority
+Creating thread 12
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 12 name "fork thread" looped 0 times 10 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2900
+The timeleft of currentthread fork thread 12 is 16
+*** thread 12 name "fork thread" looped 1 times 6 priority
+*** thread 12 name "fork thread" looped 2 times 4 priority
+*** thread 12 name "fork thread" looped 3 times 2 priority
+*** thread 12 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 2950
+The timeleft of currentthread fork thread 33 is 12
+*** thread 8 name "fork thread" looped 3 times -2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3000
+The timeleft of currentthread fork thread 24 is 12
+*** thread 38 name "fork thread" looped 3 times -2 priority
+*** thread 10 name "fork thread" looped 4 times -2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3050
+The timeleft of currentthread fork thread 2 is 8
+*** thread 17 name "fork thread" looped 4 times -2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3100
+The timeleft of currentthread fork thread 14 is 12
+*** thread 15 name "fork thread" looped 4 times -2 priority
+*** thread 16 name "fork thread" looped 4 times -2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3150
+The timeleft of currentthread fork thread 3 is 0
+*** thread 1 name "fork thread" looped 4 times -2 priority
+*** thread 29 name "fork thread" looped 3 times -2 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3200
+The timeleft of currentthread fork thread 12 is 12
+Creating thread 4
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread fork thread with priority 10
+*** thread 4 name "fork thread" looped 0 times 10 priority
+*** thread 4 name "fork thread" looped 1 times 8 priority
+*** thread 4 name "fork thread" looped 2 times 6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3250
+The timeleft of currentthread fork thread 4 is 16
+*** thread 4 name "fork thread" looped 3 times 2 priority
+*** thread 4 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3300
+The timeleft of currentthread fork thread 38 is 4
+*** thread 2 name "fork thread" looped 4 times -4 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3350
+The timeleft of currentthread fork thread 15 is 8
+*** thread 29 name "fork thread" looped 4 times -4 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3400
+The timeleft of currentthread fork thread 12 is 8
+Creating thread 1
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 1 name "fork thread" looped 0 times 10 priority
+*** thread 1 name "fork thread" looped 1 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3450
+The timeleft of currentthread fork thread 1 is 16
+*** thread 1 name "fork thread" looped 2 times 4 priority
+*** thread 1 name "fork thread" looped 3 times 2 priority
+*** thread 1 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3500
+The timeleft of currentthread fork thread 33 is 8
+*** thread 8 name "fork thread" looped 4 times -4 priority
+Creating thread 1
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread fork thread was preempted by thread fork thread with priority 10
+*** thread 1 name "fork thread" looped 0 times 10 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3550
+The timeleft of currentthread fork thread 1 is 16
+*** thread 1 name "fork thread" looped 1 times 6 priority
+*** thread 1 name "fork thread" looped 2 times 4 priority
+*** thread 1 name "fork thread" looped 3 times 2 priority
+*** thread 1 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3600
+The timeleft of currentthread fork thread 1 is 12
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3650
+The timeleft of currentthread main 0 is 12
+*** thread 38 name "fork thread" looped 4 times -6 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3700
+The timeleft of currentthread fork thread 12 is 4
+Creating thread 1
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread fork thread with priority 10
+*** thread 1 name "fork thread" looped 0 times 10 priority
+*** thread 1 name "fork thread" looped 1 times 8 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3750
+The timeleft of currentthread fork thread 1 is 16
+*** thread 1 name "fork thread" looped 2 times 4 priority
+*** thread 1 name "fork thread" looped 3 times 2 priority
+*** thread 1 name "fork thread" looped 4 times 0 priority
+Reached here at TimerHandler!***
+Reached at TimerInterruptHandler! at 3800
+The timeleft of currentthread fork thread 38 is 0
+next is the test of command TS(test status),it can be bold or plain Please give the command:
+the input was ts
+this is the threadstatus of all the thread now:
+the threadnum is 2 working!
+thread 0 name main 
+thread 1 name fork thread 
+No test specified.
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 3850, idle 20, system 3830, user 0
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...

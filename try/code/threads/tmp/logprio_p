@@ -1,0 +1,47 @@
+The value of ShouldISwitch is 0------------- 
+ The value of ShouldISwitch is 0------------- 
+ The value of ShouldISwitch is 0------------- 
+ *** thread 0 name "main" looped 0 times 10 priority
+*** thread 1 name "forked thread1" looped 0 times 10 priority
+*** thread 2 name "forked thread2" looped 0 times 10 priority
+*** thread 3 name "forked thread3" looped 0 times 10 priority
+*** thread 0 name "main" looped 1 times 8 priority
+*** thread 1 name "forked thread1" looped 1 times 8 priority
+*** thread 2 name "forked thread2" looped 1 times 8 priority
+*** thread 3 name "forked thread3" looped 1 times 8 priority
+*** thread 0 name "main" looped 2 times 6 priority
+*** thread 1 name "forked thread1" looped 2 times 6 priority
+*** thread 2 name "forked thread2" looped 2 times 6 priority
+*** thread 3 name "forked thread3" looped 2 times 6 priority
+*** thread 0 name "main" looped 3 times 4 priority
+*** thread 1 name "forked thread1" looped 3 times 4 priority
+*** thread 2 name "forked thread2" looped 3 times 4 priority
+*** thread 3 name "forked thread3" looped 3 times 4 priority
+*** thread 0 name "main" looped 4 times 2 priority
+The value of ShouldISwitch is 1------------- 
+ reached here!The Thread main was preempted by thread newly thread 4 with priority 14
+*** thread 4 name "newly thread 4" looped 0 times 14 priority
+*** thread 4 name "newly thread 4" looped 1 times 12 priority
+*** thread 4 name "newly thread 4" looped 2 times 10 priority
+*** thread 4 name "newly thread 4" looped 3 times 8 priority
+*** thread 4 name "newly thread 4" looped 4 times 6 priority
+*** thread 3 name "forked thread3" looped 4 times 2 priority
+*** thread 1 name "forked thread1" looped 4 times 2 priority
+*** thread 2 name "forked thread2" looped 4 times 2 priority
+next is the test of command TS(test status),it can be bold or plain Please give the command:
+the input was ts
+this is the threadstatus of all the thread now:
+the threadnum is 1 working!
+thread 0 name main 
+No test specified.
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 340, idle 0, system 340, user 0
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...

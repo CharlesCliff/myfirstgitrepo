@@ -1,0 +1,89 @@
+Initializing address space, num pages 10, size 1280
+Write 40 bytes noffH.code back to swap file
+Write 40 bytes noffH.code back to swap file
+Write 40 bytes noffH.code back to swap file
+Write 40 bytes noffH.code back to swap file
+Write 40 bytes noffH.code back to swap file
+Write 40 bytes noffH.code back to swap file
+Write 40 bytes noffH.code back to swap file
+Write 16 bytes noffH.code back to swap file
+Initializing code segment, at 0x0, size 256
+hit count:10, numBits:4096
+MemoryTieUpRate = 0.312500
+Initializing stack register to 1264
+Reading VA 0x0, size 4
+	Translate 0x0, read: *** Found valid TLB entry[0] for this virtual page!
+phys addr = 0x0
+	value read = 0c000034
+Reading VA 0x4, size 4
+	Translate 0x4, read: *** Found valid TLB entry[0] for this virtual page!
+phys addr = 0x4
+	value read = 00000000
+Reading VA 0xd0, size 4
+	Translate 0xd0, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xd0
+	value read = 27bdffe8
+Reading VA 0xd4, size 4
+	Translate 0xd4, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xd4
+	value read = afbf0014
+Writing VA 0x4ec, size 4, value 0x8
+	Translate 0x4ec, write: *** no valid TLB entry found for this virtual page!
+PageFault on TLB.calling TranslatePTE()
+phys addr = 0x4ec
+*** tlb [0] NRU_N = 2 !
+*** tlb [1] NRU_N = 2 !
+*** tlb [2] NRU_N = 0 !
+*** tlb [3] NRU_N = 0 !
+***Switch out tlb[2]!
+***Updating tlb[2]!
+Reading VA 0xd8, size 4
+	Translate 0xd8, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xd8
+	value read = afbe0010
+Writing VA 0x4e8, size 4, value 0x0
+	Translate 0x4e8, write: *** Found valid TLB entry[2] for this virtual page!
+phys addr = 0x4e8
+Reading VA 0xdc, size 4
+	Translate 0xdc, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xdc
+	value read = 0c000030
+Reading VA 0xe0, size 4
+	Translate 0xe0, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xe0
+	value read = 03a0f021
+Reading VA 0xc0, size 4
+	Translate 0xc0, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xc0
+	value read = 03e00008
+Reading VA 0xc4, size 4
+	Translate 0xc4, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xc4
+	value read = 00000000
+Reading VA 0xe4, size 4
+	Translate 0xe4, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xe4
+	value read = 0c000004
+Reading VA 0xe8, size 4
+	Translate 0xe8, read: *** Found valid TLB entry[1] for this virtual page!
+phys addr = 0xe8
+	value read = 00000000
+Reading VA 0x10, size 4
+	Translate 0x10, read: *** Found valid TLB entry[0] for this virtual page!
+phys addr = 0x10
+	value read = 24020000
+Reading VA 0x14, size 4
+	Translate 0x14, read: *** Found valid TLB entry[0] for this virtual page!
+phys addr = 0x14
+	value read = 0000000c
+Shutdown, initiated by user program.
+Machine halting!
+
+Ticks: total 22, idle 0, system 10, user 12
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+Memory tie up rate: 0.00%
+
+Cleaning up...

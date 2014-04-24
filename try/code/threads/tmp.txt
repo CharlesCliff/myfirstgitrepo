@@ -1,0 +1,1 @@
+g++ -m32 main.o list.o scheduler.o synch.o synchlist.o system.o thread.o utility.o threadtest.o interrupt.o stats.o sysdep.o timer.o switch.o  -o nachos

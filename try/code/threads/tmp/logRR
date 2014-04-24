@@ -1,0 +1,61 @@
+Round robin scheduling
+The value of ShouldISwitch is 0------------- 
+ The value of ShouldISwitch is 0------------- 
+ tick for main 0  0  times, left 20
+tick for main 0  1  times, left 20
+Reached here at TimerHandler!***
+reached here at time 50-----------------------
+tick for forking RR_thread1 1  0  times, left 20
+tick for forking RR_thread1 1  1  times, left 20
+tick for forking RR_thread1 1  2  times, left 20
+tick for forking RR_thread1 1  3  times, left 20
+Reached here at TimerHandler!***
+reached here at time 100-----------------------
+tick for forking RR_thread2 2  0  times, left 20
+tick for forking RR_thread2 2  1  times, left 20
+tick for forking RR_thread2 2  2  times, left 20
+tick for forking RR_thread2 2  3  times, left 20
+Reached here at TimerHandler!***
+reached here at time 150-----------------------
+tick for main 0  2  times, left 15
+tick for main 0  3  times, left 15
+tick for main 0  4  times, left 15
+tick for main 0  5  times, left 15
+Reached here at TimerHandler!***
+reached here at time 200-----------------------
+tick for forking RR_thread1 1  4  times, left 15
+tick for forking RR_thread1 1  5  times, left 15
+tick for forking RR_thread1 1  6  times, left 15
+tick for forking RR_thread1 1  7  times, left 15
+Reached here at TimerHandler!***
+reached here at time 250-----------------------
+tick for forking RR_thread2 2  4  times, left 15
+tick for forking RR_thread2 2  5  times, left 15
+tick for forking RR_thread2 2  6  times, left 15
+tick for forking RR_thread2 2  7  times, left 15
+Reached here at TimerHandler!***
+reached here at time 300-----------------------
+tick for main 0  6  times, left 10
+tick for main 0  7  times, left 10
+tick for main 0  8  times, left 10
+tick for main 0  9  times, left 10
+Reached here at TimerHandler!***
+reached here at time 350-----------------------
+tick for forking RR_thread1 1  8  times, left 10
+tick for forking RR_thread1 1  9  times, left 10
+tick for forking RR_thread2 2  8  times, left 10
+Reached here at TimerHandler!***
+reached here at time 400-----------------------
+No test specified.
+tick for forking RR_thread2 2  9  times, left 5
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 450, idle 20, system 430, user 0
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+
+Cleaning up...

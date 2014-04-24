@@ -1,0 +1,8 @@
+///This is the thread control block which manages the whole thread exist in the system
+///we handle the Thread in a list which is somewhat like the readyList in scheduler
+///
+
+class tcb
+{
+
+}
